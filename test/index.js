@@ -3,6 +3,7 @@
 
 import {describe} from 'fava';
 import path from 'node:path';
+import process from 'node:process';
 import filename from '../dist/index.js';
 
 /* MAIN */
