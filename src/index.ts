@@ -1,9 +1,13 @@
 
+/* IMPORT */
+
+import fileurl2path from 'fileurl2path';
+
 /* MAIN */
 
 const filename = ( url: string ): string => {
 
-  return new URL ( '', url ).pathname;
+  return fileurl2path ( new URL ( '', url ) );
 
 };
 
