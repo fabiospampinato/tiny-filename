@@ -3,7 +3,7 @@
   "repository": "github:fabiospampinato/tiny-filename",
   "description": "A tiny isomorphic ESM alternative to Node's __filename global.",
   "license": "MIT",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "type": "module",
   "main": "dist/index.js",
   "exports": "./dist/index.js",
