@@ -2,6 +2,7 @@
   "name": "tiny-filename",
   "repository": "github:fabiospampinato/tiny-filename",
   "description": "A tiny isomorphic ESM alternative to Node's __filename global.",
+  "license": "MIT",
   "version": "1.0.1",
   "type": "module",
   "main": "dist/index.js",
@@ -22,11 +23,11 @@
     "isomorphic"
   ],
   "dependencies": {
-    "fileurl2path": "^1.0.0"
+    "fileurl2path": "^1.0.1"
   },
   "devDependencies": {
-    "fava": "^0.2.1",
-    "tsex": "^3.0.1",
-    "typescript": "^5.1.6"
+    "fava": "^0.3.4",
+    "tsex": "^4.0.2",
+    "typescript": "^5.7.3"
   }
 }
